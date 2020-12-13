@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Checker</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="fact-title">
+            News Checker
+        </div>
+        <div class="line"></div>
+        <div class="check-back">
+            <img src="./images/check-back.svg" alt="">
+        </div>
+    </div>
+    <div class="form">
+        <form action="/checker" class="form" method="POST">
+            <label for="">Enter the URL of the article</label>
+            <input name="url" type="text" style="margin-bottom: 40px;" required>
+            <input type="submit">
+        </form>
+    </div>
+
+</body>
+</html>
