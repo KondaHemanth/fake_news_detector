@@ -30,7 +30,7 @@ loaded_model = pickle.load(open('finalized_model_new11.sav', 'rb'))
 
 # In[28]:
 
-print(loaded_model.predict([sys.argv[1]])[0])
+print((loaded_model.predict_proba([sys.argv[1]])[0][0])*100,'%')
 
 
 # In[29]:
